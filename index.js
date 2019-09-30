@@ -22,17 +22,13 @@ server.get('/', (req, res) => {
 
       rowMatriz.map((charRow, index) => {
         let patt = new RegExp(character)
-        // console.log('charRow:', charRow)
-        // console.log('charRow.length: ', charRow.length)
-        // console.log('character:', character)
-        // console.log('character.length: ', character.length)
         if (patt.test(charRow)) {
           pos = index
           return pos
         }
       })
 
-      if (pos) return `${row}${pos}`
+      if (pos >= 0) return `${row}${pos}`
     }
   }
 

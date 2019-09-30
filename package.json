@@ -1,0 +1,27 @@
+{
+    "name": "polibio",
+    "version": "1.0.0",
+    "description": "polibio",
+    "main": "index.js",
+    "scripts": {
+        "start": "nodemon ./index.js",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "Elio Costa",
+    "license": "MIT",
+    "dependencies": {
+        "express": "4.17.1"
+    },
+    "devDependencies": {
+        "editorconfig": "^0.15.3",
+        "eslint": "^5.16.0",
+        "eslint-config-standard": "^12.0.0",
+        "eslint-plugin-import": "^2.16.0",
+        "eslint-plugin-node": "^8.0.1",
+        "eslint-plugin-prettier": "3.0.0",
+        "eslint-plugin-promise": "^4.1.1",
+        "eslint-plugin-standard": "^4.0.0",
+        "prettier": "1.15.3",
+        "prettierrc": "0.0.0-5"
+    }
+}
